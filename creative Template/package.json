@@ -1,0 +1,20 @@
+{
+  "name": "creatives",
+  "version": "1.0.0",
+  "description": "first try alone",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp"
+  },
+  "author": "Mohammad Istanbouly",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "4.0.0-alpha.6",
+    "font-awesome": "^4.7.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  }
+}

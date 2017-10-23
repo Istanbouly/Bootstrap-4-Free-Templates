@@ -1,0 +1,132 @@
+@media (max-width: 576px) {
+  nav .container {
+    width: 100%; }
+  .w-sm-100 {
+    width: 100% !important; }
+  #main-header h1 {
+    font-size: 4rem; }
+  .nav-item .active-link {
+    border-bottom: 0px solid #11749e !important; }
+  .nav-item .nav-link:hover {
+    border-bottom: 0px solid #11749e !important;
+    color: #11749e !important; } }
+
+.container-fluid {
+  width: 100% !important; }
+
+.container-big {
+  width: 1250px; }
+
+.nav-item .nav-link {
+  color: #fff !important;
+  font-size: 20px;
+  margin-left: 1rem;
+  display: inline;
+  padding-bottom: 38px; }
+  .nav-item .nav-link:hover {
+    border-bottom: 5px solid #11749e; }
+
+.nav-item .active-link {
+  border-bottom: 5px solid #11749e; }
+
+nav {
+  border-bottom: 1px solid #626262;
+  transition: 0.5s; }
+
+#main-header {
+  background-image: url("../img/header-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 880px;
+  height: 880px; }
+  #main-header .header-message {
+    color: #11749e;
+    letter-spacing: 0.5rem;
+    font-weight: 400;
+    text-transform: uppercase; }
+  #main-header #scroll-down {
+    cursor: pointer; }
+
+.section-custom-title {
+  position: relative;
+  top: -110px; }
+
+#agency-section {
+  min-height: 740px;
+  background: #11749e; }
+  #agency-section .col-md-3 img.agency-image {
+    cursor: pointer;
+    border-radius: 100%;
+    transition: 0.2s; }
+    #agency-section .col-md-3 img.agency-image:hover {
+      border: #3B8DAF 5px dashed;
+      transform: rotate(360deg); }
+
+#news-section {
+  min-height: 920px; }
+
+#blog-section {
+  min-height: 1020px; }
+  #blog-section .blog-image {
+    cursor: pointer;
+    transition: 1s; }
+    #blog-section .blog-image:hover {
+      filter: sepia(100%); }
+
+#quick-section {
+  min-height: 360px;
+  background: #11749e; }
+
+#key-section {
+  min-height: 850px;
+  background-image: url("../img/area3.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed; }
+  #key-section .w-55 {
+    width: 55%; }
+  #key-section .w-60 {
+    width: 60%; }
+  #key-section .w-sm-100 {
+    cursor: pointer;
+    transition: 0.5s; }
+    #key-section .w-sm-100:hover {
+      background: #EBEBEB !important;
+      color: #000; }
+
+#team-section .team-member-card {
+  position: relaive;
+  width: 80%;
+  top: -50px; }
+
+#contact-section {
+  min-height: 850px;
+  background-image: url("../img/contact-area.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed; }
+  #contact-section .form-control {
+    border-radius: 0px;
+    padding: 0.8rem;
+    border: 1px solid #fff;
+    background: transparent !important;
+    color: #fff;
+    resize: none; }
+  #contact-section input[type="submit"] {
+    border-radius: 0px;
+    background: #11749e; }
+
+#map-section {
+  min-height: 340px;
+  background-image: url("../img/map.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+
+footer {
+  height: 115px;
+  min-height: 115px;
+  background: #222222; }
